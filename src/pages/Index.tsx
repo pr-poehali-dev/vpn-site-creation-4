@@ -4,7 +4,7 @@ import Icon from "@/components/ui/icon";
 const HERO_IMG = "https://cdn.poehali.dev/projects/6a96a60b-db01-4bda-b8e6-9af9ea4925e1/files/f3bb269b-5c33-42e9-a2f4-88c343857d03.jpg";
 const ENCRYPT_IMG = "https://cdn.poehali.dev/projects/6a96a60b-db01-4bda-b8e6-9af9ea4925e1/files/0097ab4a-78a0-4d92-925c-c9dd7e8ef570.jpg";
 
-const NAV_LINKS = ["Главная", "О сервисе", "Преимущества", "Тарифы", "Загрузка"];
+const NAV_LINKS = ["Главная", "О сервисе", "Преимущества", "Тарифы"];
 
 const FEATURES = [
   {
@@ -51,13 +51,7 @@ const PLANS = [
 
 ];
 
-const PLATFORMS = [
-  { name: "Windows", icon: "Monitor" },
-  { name: "macOS", icon: "Laptop" },
-  { name: "iOS", icon: "Smartphone" },
-  { name: "Android", icon: "Smartphone" },
-  { name: "Linux", icon: "Terminal" },
-];
+
 
 export default function Index() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -338,42 +332,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* DOWNLOAD */}
-      <section id="download" className="py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="rounded-3xl p-12 md:p-16 text-center relative overflow-hidden"
-            style={{ background: "linear-gradient(135deg, rgba(0,245,255,0.06), rgba(0,128,255,0.06))", border: "1px solid rgba(0,245,255,0.2)" }}>
-            <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(0,245,255,0.08), transparent 60%)" }} />
 
-            <div className="text-sm font-semibold mb-4 neon-text relative" style={{ fontFamily: "'Oswald', sans-serif", letterSpacing: "0.2em" }}>
-              ЗАГРУЗКА
-            </div>
-            <h2 className="text-4xl md:text-6xl font-bold mb-6 relative" style={{ fontFamily: "'Oswald', sans-serif", color: "white" }}>
-              СКАЧАЙТЕ <span className="gradient-text">ПРИЛОЖЕНИЕ</span>
-            </h2>
-            <p className="mb-10 max-w-xl mx-auto relative" style={{ color: "rgba(255,255,255,0.6)", fontFamily: "'Golos Text', sans-serif" }}>
-              Доступно на всех популярных платформах. Установка занимает меньше минуты — и вы уже под защитой.
-            </p>
-
-            <div className="flex flex-wrap justify-center gap-4 relative">
-              {PLATFORMS.map((p) => (
-                <button key={p.name}
-                  className="flex items-center gap-3 px-6 py-4 rounded-xl transition-all duration-300 hover:-translate-y-1"
-                  style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)", color: "white" }}>
-                  <Icon name={p.icon} size={20} style={{ color: "var(--neon-cyan)" }} />
-                  <span style={{ fontFamily: "'Oswald', sans-serif", fontWeight: "600", letterSpacing: "0.05em" }}>{p.name}</span>
-                </button>
-              ))}
-            </div>
-
-            <div className="mt-10 relative">
-              <button className="btn-neon px-10 py-4 rounded-xl text-base">
-                Начать бесплатно — 7 дней
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* FOOTER */}
       <footer className="py-12" style={{ borderTop: "1px solid rgba(0,245,255,0.1)" }}>
