@@ -322,9 +322,9 @@ export default function Index() {
                     </li>
                   ))}
                 </ul>
-                <button className={plan.popular ? "btn-neon w-full py-3 rounded-xl text-sm" : "btn-outline-neon w-full py-3 rounded-xl text-sm"}>
-                  Выбрать план
-                </button>
+                <a href="https://www.tinkoff.ru/rm/r_QsRjyUPyfs.YuOfhazbDq/r3GS82251" target="_blank" rel="noopener noreferrer" className={plan.popular ? "btn-neon w-full py-3 rounded-xl text-sm flex items-center justify-center" : "btn-outline-neon w-full py-3 rounded-xl text-sm flex items-center justify-center"}>
+                  Купить
+                </a>
               </div>
             ))}
           </div>
