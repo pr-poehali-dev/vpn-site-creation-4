@@ -87,7 +87,7 @@ export default function Index() {
               <Icon name="Shield" size={16} className="text-black" />
             </div>
             <span className="font-bold text-xl" style={{ fontFamily: "'Oswald', sans-serif", color: "var(--neon-cyan)" }}>
-              ShieldVPN
+              GlobalNet
             </span>
           </div>
 
@@ -181,7 +181,7 @@ export default function Index() {
           <div className="relative flex items-center justify-center animate-fade-up-delay-2">
             <div className="relative float-anim">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden" style={{ border: "2px solid rgba(0,245,255,0.3)", boxShadow: "0 0 60px rgba(0,245,255,0.2), 0 0 120px rgba(0,245,255,0.08)" }}>
-                <img src={HERO_IMG} alt="ShieldVPN" className="w-full h-full object-cover" />
+                <img src={HERO_IMG} alt="GlobalNet" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -top-4 -right-4 w-20 h-20 rounded-2xl flex items-center justify-center" style={{ background: "var(--card-bg)", border: "1px solid rgba(0,245,255,0.3)", boxShadow: "0 0 20px rgba(0,245,255,0.15)" }}>
                 <div className="text-center">
@@ -225,7 +225,7 @@ export default function Index() {
                 ПОКОЛЕНИЯ
               </h2>
               <p className="mb-6 leading-relaxed" style={{ color: "rgba(255,255,255,0.6)", fontFamily: "'Golos Text', sans-serif" }}>
-                ShieldVPN создан командой экспертов по кибербезопасности с опытом работы в государственных структурах. Мы используем те же технологии шифрования, что и военные ведомства.
+                GlobalNet создан командой экспертов по кибербезопасности с опытом работы в государственных структурах. Мы используем те же технологии шифрования, что и военные ведомства.
               </p>
               <p className="mb-8 leading-relaxed" style={{ color: "rgba(255,255,255,0.6)", fontFamily: "'Golos Text', sans-serif" }}>
                 Политика абсолютного нулевого журналирования — мы не храним никаких данных о вашей активности. Вы остаётесь полностью анонимными.
@@ -254,7 +254,7 @@ export default function Index() {
               ПРЕИМУЩЕСТВА
             </div>
             <h2 className="text-4xl md:text-6xl font-bold" style={{ fontFamily: "'Oswald', sans-serif", color: "white" }}>
-              ПОЧЕМУ <span className="gradient-text">SHIELDVPN</span>
+              ПОЧЕМУ <span className="gradient-text">GLOBALNET</span>
             </h2>
           </div>
 
@@ -341,10 +341,10 @@ export default function Index() {
             <div className="w-7 h-7 rounded-lg flex items-center justify-center" style={{ background: "linear-gradient(135deg, var(--neon-cyan), var(--neon-blue))" }}>
               <Icon name="Shield" size={14} className="text-black" />
             </div>
-            <span className="font-bold" style={{ fontFamily: "'Oswald', sans-serif", color: "var(--neon-cyan)" }}>ShieldVPN</span>
+            <span className="font-bold" style={{ fontFamily: "'Oswald', sans-serif", color: "var(--neon-cyan)" }}>GlobalNet</span>
           </div>
           <p className="text-sm" style={{ color: "rgba(255,255,255,0.3)", fontFamily: "'Golos Text', sans-serif" }}>
-            © 2024 ShieldVPN. Все права защищены.
+            © 2024 GlobalNet. Все права защищены.
           </p>
           <div className="flex gap-6">
             {["Политика", "Условия", "Контакты"].map((link) => (
