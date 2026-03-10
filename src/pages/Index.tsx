@@ -31,12 +31,7 @@ const FEATURES = [
     desc: "Оптимизированная инфраструктура на 50+ серверах по всему миру. До 10 Гбит/с без ограничений трафика.",
     color: "cyan",
   },
-  {
-    icon: "Globe",
-    title: "50+ стран",
-    desc: "Серверы в Европе, Азии, Америке. Получите IP любой страны мгновенно — одним нажатием.",
-    color: "blue",
-  },
+
   {
     icon: "Smartphone",
     title: "Все платформы",
@@ -193,7 +188,7 @@ export default function Index() {
             </div>
 
             <div className="flex items-center gap-8 mt-10 animate-fade-up-delay-4">
-              {[["10M+", "Пользователей"], ["50+", "Стран"], ["99.9%", "Аптайм"]].map(([val, label]) => (
+              {[["10M+", "Пользователей"], ["99.9%", "Аптайм"]].map(([val, label]) => (
                 <div key={label}>
                   <div className="text-2xl font-bold gradient-text" style={{ fontFamily: "'Oswald', sans-serif" }}>{val}</div>
                   <div className="text-xs" style={{ color: "rgba(255,255,255,0.4)", fontFamily: "'Golos Text', sans-serif" }}>{label}</div>
