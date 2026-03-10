@@ -48,20 +48,7 @@ const PLANS = [
     features: ["до 4 устройств", "AES-256", "Поддержка 24/7"],
     popular: false,
   },
-  {
-    name: "Оптимальный",
-    price: "299",
-    period: "мес",
-    features: ["3 устройства", "50+ серверов", "AES-256", "Kill Switch", "Защита DNS", "Поддержка 24/7"],
-    popular: true,
-  },
-  {
-    name: "Максимум",
-    price: "499",
-    period: "мес",
-    features: ["6 устройств", "50+ серверов", "AES-256", "Kill Switch", "Защита DNS", "Выделенный IP", "Поддержка 24/7"],
-    popular: false,
-  },
+
 ];
 
 const PLATFORMS = [
