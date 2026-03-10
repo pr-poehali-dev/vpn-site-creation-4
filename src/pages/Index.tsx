@@ -42,10 +42,10 @@ const FEATURES = [
 
 const PLANS = [
   {
-    name: "Базовый",
-    price: "149",
+    name: "База",
+    price: "99",
     period: "мес",
-    features: ["1 устройство", "20+ серверов", "AES-256", "Поддержка 24/7"],
+    features: ["до 4 устройств", "AES-256", "Поддержка 24/7"],
     popular: false,
   },
   {
