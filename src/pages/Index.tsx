@@ -161,7 +161,7 @@ export default function Index() {
 
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-up-delay-3">
               <a href="https://www.tinkoff.ru/rm/r_QsRjyUPyfs.YuOfhazbDq/r3GS82251" target="_blank" rel="noopener noreferrer" className="btn-neon px-8 py-4 rounded-xl text-base flex items-center justify-center">Начать защиту</a>
-              <button className="btn-outline-neon px-8 py-4 rounded-xl text-base flex items-center gap-2 justify-center">
+              <button className="btn-outline-neon px-8 py-4 rounded-xl text-base flex items-center gap-2 justify-center" onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}>
                 <Icon name="Play" size={18} />
                 Как это работает
               </button>
