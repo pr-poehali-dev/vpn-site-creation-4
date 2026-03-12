@@ -108,7 +108,6 @@ export default function Index() {
           </div>
 
           <div className="hidden md:flex items-center gap-3">
-            <button className="btn-outline-neon px-5 py-2 rounded-lg text-sm">Войти</button>
             <button className="btn-neon px-5 py-2 rounded-lg text-sm">Попробовать</button>
           </div>
 
@@ -126,7 +125,6 @@ export default function Index() {
               </button>
             ))}
             <div className="flex gap-3 pt-2">
-              <button className="btn-outline-neon flex-1 py-2 rounded-lg text-sm">Войти</button>
               <button className="btn-neon flex-1 py-2 rounded-lg text-sm">Попробовать</button>
             </div>
           </div>
