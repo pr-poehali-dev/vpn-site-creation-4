@@ -108,7 +108,7 @@ export default function Index() {
           </div>
 
           <div className="hidden md:flex items-center gap-3">
-            <button className="btn-neon px-5 py-2 rounded-lg text-sm">Попробовать</button>
+            <button className="btn-neon px-5 py-2 rounded-lg text-sm" onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}>Попробовать</button>
           </div>
 
           <button className="md:hidden" style={{ color: "white" }} onClick={() => setMenuOpen(!menuOpen)}>
@@ -125,7 +125,7 @@ export default function Index() {
               </button>
             ))}
             <div className="flex gap-3 pt-2">
-              <button className="btn-neon flex-1 py-2 rounded-lg text-sm">Попробовать</button>
+              <button className="btn-neon flex-1 py-2 rounded-lg text-sm" onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}>Попробовать</button>
             </div>
           </div>
         )}
