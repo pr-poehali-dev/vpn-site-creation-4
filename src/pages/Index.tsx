@@ -302,9 +302,14 @@ export default function Index() {
                   </div>
                 )}
                 <div className="mb-6">
-                  <h3 className="text-xl font-bold mb-1" style={{ fontFamily: "'Oswald', sans-serif", color: plan.popular ? "var(--neon-cyan)" : "white" }}>
-                    {plan.name}
-                  </h3>
+                  <div className="flex items-center gap-2 mb-2">
+                    <h3 className="text-xl font-bold" style={{ fontFamily: "'Oswald', sans-serif", color: plan.popular ? "var(--neon-cyan)" : "white" }}>
+                      {plan.name}
+                    </h3>
+                    <span className="px-2 py-0.5 rounded-full text-xs font-bold" style={{ background: "rgba(0,255,136,0.15)", color: "var(--neon-green)", fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em" }}>
+                      7 ДНЕЙ БЕСПЛАТНО
+                    </span>
+                  </div>
                   <div className="flex items-end gap-1">
                     <span className="text-5xl font-bold" style={{ fontFamily: "'Oswald', sans-serif", color: "white" }}>{plan.price}₽</span>
                     <span className="mb-2 text-sm" style={{ color: "rgba(255,255,255,0.4)", fontFamily: "'Golos Text', sans-serif" }}>/{plan.period}</span>
